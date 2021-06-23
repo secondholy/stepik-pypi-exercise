@@ -1,6 +1,5 @@
 from distutils.core import setup
 from setuptools import find_packages
-
 setup(
     name='stepik_exercise',
     packages=find_packages(exclude=['test', '*.test', '*.test.*']),
